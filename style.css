@@ -11,8 +11,9 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(247, 240, 231);
     font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #container {
