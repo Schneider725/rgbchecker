@@ -77,5 +77,5 @@ function compareValues(){
 }
 
 function showAnswer() {
-    alert(` r : ${R} g : ${G} b :${B}`);
+    alert(` r : ${R} \ng : ${G} \nb : ${B}`);
 }
