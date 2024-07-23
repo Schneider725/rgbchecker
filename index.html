@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>rgb guess</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="square"></div>
+        </div>
+        <div> R : <input id="red" type="text" placeholder="0" required></div>
+        <div> G :<input  id ="green" type="text" placeholder="0" required></div>
+        <div> B :<input  id="blue" type="text" placeholder="0" required></div>
+        <button id="check">check</button>
+        <button id="answer">show values</button>
+
+        <p>Alert Meaning</p>
+        <ul>
+            <li>1 - your RGB guess added together is 10 off from the actual RGB value</li>
+            <li>2 - your RGB guess added together is 20 off from the actual RGB value</li>
+            <li>3 - your RGB guess added together is 40 off from the actual RGB value</li>
+            <li>4 - your RGB guess added together is 60 off from the actual RGB value</li>
+            <li>5 - your RGB guess added together is 120 off from the actual RGB value</li>
+            <li>6 - your RGB guess added together is more than 120 off from the actual RGB value</li>
+        </ul>
+
+        <script src="script.js"></script>
+    </body>
+</html>

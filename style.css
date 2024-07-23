@@ -1,0 +1,42 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 70vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: large;
+}
+
+#container {
+    width: 50vh;
+    height: 50vh;
+    border: 2px black solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20%;
+}
+input {
+    padding: 10px;
+    margin-bottom: 10px;;
+    font-size: large;
+}
+ ul {
+    list-style: none;
+    margin-bottom: 20px;
+ }
+  li {
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px;
+    margin-bottom: 5px;
+  }
